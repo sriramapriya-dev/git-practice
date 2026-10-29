@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "hello world"
-author--priya
+
+# Author: Sri Rama Priya
+echo "Hello World"
