@@ -1,9 +1,9 @@
 #!/bin/bash
 
 USERID=$(id -u)
-R= "\e[31m"
-G= "\e[32m"
-N= "\e[0m"  
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"  
 
 if [ $USERID -ne 0 ]
 then
@@ -28,4 +28,4 @@ else
   fi
 fi
 #[ ec2-user@ip-172-31-30-242 ~/git-practice ]$ sudo sh 07-installation.sh
-MySQL is already installed.
+#MySQL is already installed.
